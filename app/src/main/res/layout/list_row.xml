@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8eaea">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:elevation="25dp"
+        android:background="@drawable/custom_outline"
+        android:backgroundTint="#fff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pincode:     "
+                android:textSize="17sp"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:gravity="right"/>
+
+            <TextView
+                android:id="@+id/get_pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="add pin code"
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:gravity="left"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/get_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID here"
+                android:textColor="#000"
+
+                android:textSize="17sp"
+                android:background="@drawable/custom_border"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:     "
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/get_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="add name"
+                android:textColor="#000"
+                android:textSize="17sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pno:     "
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/get_pno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="add pno"
+                android:textColor="#000"
+                android:textSize="17sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Members in family:     "
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/get_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="add number"
+                android:textColor="#000"
+                android:textSize="17sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donation Reqd:     "
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/get_don"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="add donation"
+                android:textColor="#000"
+                android:textSize="17sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

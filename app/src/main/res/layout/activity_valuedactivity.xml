@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".valuedactivity"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:padding="40dp"
+            android:src="@drawable/novel_corona_new"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/bg_menu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <Button
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Red zone\ndetection"
+                android:layout_weight="1"
+                android:onClick="openGeoFence"
+                android:background="@drawable/bg_items"/>
+
+            <Button
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Request a Donation"
+                android:layout_weight="1"
+                android:onClick="openReqDonation"
+                android:background="@drawable/bg_items"/>
+
+            <Button
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Donations requested"
+                android:layout_weight="1"
+                android:onClick="openRDonationRequested"
+                android:background="@drawable/bg_items"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Corona\nInfo"
+                android:layout_weight="1"
+                android:onClick="openCoronaInfo"
+                android:background="@drawable/bg_items"/>
+
+            <Button
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Medical\nhelp"
+                android:layout_weight="1"
+                android:onClick="openMedHelp"
+                android:background="@drawable/bg_items"/>
+
+            <Button
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Quit"
+                android:layout_weight="1"
+                android:onClick="onExit"
+                android:background="@drawable/bg_items"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    -->
+
+</LinearLayout>

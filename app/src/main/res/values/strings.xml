@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Saviour</string>
+    <string name="Skip_btn">Skip</string>
+    <string name="let_get_started">Lets Get Started</string>
+    <string name="first_slide_title">Co-VID -19 </string>
+    <string name="second_slide_title">Symptoms</string>
+    <string name="third_slide_title">Precautions</string>
+    <string name="fourth_slide_title">Treatment</string>
+    <string name="first_slide_desc">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment. </string>
+    <string name="second_slide_desc">Fever,Dry cough,Tiredness,aches and pains,sore throat,diarrhoea,conjunctivitis,headache,loss of taste or smell,a rash on skin or discolouration of fingers or toes</string>
+    <string name="third_slide_desc"> STAY home, KEEP a safe distance, WASH hands ,often OVER your cough </string>
+    <string name="fourth_slide_desc">If you feel sick you should rest, drink plenty of fluid, and eat nutritious food. Stay in a separate room from other family members, and use a dedicated bathroom if possible. Clean and disinfect frequently touched surfaces.</string>
+    <string name="title_activity_reset_pass">ResetPassActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
