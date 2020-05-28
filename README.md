@@ -45,6 +45,7 @@ This app
 ## Permissions
 Our app requires the following permissions:
 - Full Internet Access (to submit/display donation request)
+- Microphone (For Watson Chatbot)
 - Access to fine location (for red zone alert)
 - Access to background location (for red zone alert)
 
