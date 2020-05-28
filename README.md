@@ -55,4 +55,4 @@ Here are a few ways you can help:
 - Write some code for a new feature (Please follow the code style used in the project to make a review process faster)
 - Finding a dataset which contains coordinates of all the red zones in India
 - Translate the app
-To contribute you can send an email to: dhyeydoshi2512@gmail.com , pareshgharat6890@gmail.com
+<br>To contribute you can send an email to: dhyeydoshi2512@gmail.com , pareshgharat6890@gmail.com
