@@ -21,7 +21,7 @@ Download apk from Google Drive link :
 ## Features
 
 ## Screenshots
-<img src="./forReadMe/Mainsc.jpg" width="200"> <img src="./forReadMe/Loginsc.jpg" width="200"><img src="./forReadMe/Homesc.jpg" width="200"> 
-<br><img src="./forReadMe/Donreq.jpg" width="200"> <img src="./forReadMe/Listdon.jpg" width="200">
-<br><br>
-<img src="./forReadMe/redzone.gif" width="200">
+<img src="./forReadMe/Mainsc.jpg" width="200"> <img src="./forReadMe/Loginsc.jpg" width="200"> <img src="./forReadMe/Homesc.jpg" width="200">
+#### Preview - features
+<img src="./forReadMe/Donreq.jpg" width="200"> <img src="./forReadMe/Listdon.jpg" width="200">
+<br><img src="./forReadMe/redzone.gif" width="200">  <img src="./forReadMe/watsoninfo.gif" width="200">  <img src="./forReadMe/watsonmed.gif" width="200">
