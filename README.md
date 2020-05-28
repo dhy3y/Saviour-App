@@ -28,8 +28,8 @@ Please use:
 ## Features
 This app
 - Alerts you via toast and notification when a user enters a Red zone Area ( Red zone detector )
-- Helps Poor people to request a Donation for essential material like food, clothes, groceries, etc ( Request a Donation portal )
-- Acts as a bridge between the poor people and the Users.  The user can help poor people or other needy Users by Donating essential material ( List of all the Requested Donations )
+- Helps Poor people to request a Donation for essential material like food, clothes, groceries, etc (Request a Donation portal)
+- Acts as a bridge between the poor people and the Users.  The user can help the needy by Donating essential material ( List of all the Requested Donations )
 - Has Watson Assistant Chatbot to provide Coronavirus information and Medical help to the user ( Corona Info and Medical Help)
 - Completely ad-free
 - User friendly and easy to use
@@ -55,3 +55,4 @@ Here are a few ways you can help:
 - Write some code for a new feature (Please follow the code style used in the project to make a review process faster)
 - Finding a dataset which contains coordinates of all the red zones in India
 - Translate the app
+To contribute you can send an email to: dhyeydoshi2512@gmail.com , pareshgharat6890@gmail.com
