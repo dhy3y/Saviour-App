@@ -8,20 +8,42 @@ During the pandemic, it has been a major challenge for the communication systems
 This app currently can only run on SDK 28(Android 9) and above. We'll add more compatibility in the future
 #### Prerequisite
 Install Watson Chatbot app from <a href="https://drive.google.com/file/d/1Y1z6gnO7PNHxqU1eNRwS4fI9Q4Bu75Q6/view?usp=sharing">here.</a>
-### To run on an emulator using IDE:
+
+#### To directly install on an Android phone:
+Download apk from Google Drive link : 
+<a href="https://drive.google.com/file/d/1JORfBi1Yl74sKOnw9c5pnnMcaq_hrbkx/view?usp=sharing">Saviour App</a>
+
+#### To run on an emulator using IDE:
 Clone this repository and import into **Android Studio**
 ```bash
 git clone https://github.com/dhy3y/Saviour.git
 ```
-### To directly install on an Android phone
-Download apk from Google Drive link : 
-<a href="https://drive.google.com/file/d/1JORfBi1Yl74sKOnw9c5pnnMcaq_hrbkx/view?usp=sharing">Saviour App</a>
+Please use:
+- Latest Android SDK tools
+- Latest Android platform tools
+- An emulator with SDK 28 or above
+- NDK version 20
 
 
 ## Features
+This app
+- Alerts you via toast and notification when a user enters a Red zone Area ( Red zone detector )
+- Helps Poor people to request a Donation for essential material like food, clothes, groceries, etc ( Request a Donation portal )
+- Acts as a bridge between the poor people and the Users.  The user can help poor people or other needy Users by Donating essential material ( List of all the Requested Donations )
+- Has Watson Assistant Chatbot to provide Coronavirus information and Medical help to the user ( Corona Info and Medical Help)
+- Completely ad-free
+- User friendly and easy to use
+
 
 ## Screenshots
 <img src="./forReadMe/Mainsc.jpg" width="200"> <img src="./forReadMe/Loginsc.jpg" width="200"> <img src="./forReadMe/Homesc.jpg" width="200">
 #### Preview - features
 <img src="./forReadMe/Donreq.jpg" width="200"> <img src="./forReadMe/Listdon.jpg" width="200">
 <br><img src="./forReadMe/redzone.gif" width="200">  <img src="./forReadMe/watsoninfo.gif" width="200">  <img src="./forReadMe/watsonmed.gif" width="200">
+
+
+## Permissions
+Our app requires the following permissions:
+- Full Internet Access (to submit/display donation request)
+- Access fine location 
+- Access background location
