@@ -45,8 +45,8 @@ This app
 ## Permissions
 Our app requires the following permissions:
 - Full Internet Access (to submit/display donation request)
-- Access fine location (for red zone alert)
-- Access background location (for red zone alert)
+- Access to fine location (for red zone alert)
+- Access to background location (for red zone alert)
 
 ## Contributing
 Saviour app is a free and open-source project developed by our team. Your contributions are always welcome!
