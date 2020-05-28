@@ -45,5 +45,13 @@ This app
 ## Permissions
 Our app requires the following permissions:
 - Full Internet Access (to submit/display donation request)
-- Access fine location 
-- Access background location
+- Access fine location (for red zone alert)
+- Access background location (for red zone alert)
+
+## Contributing
+Saviour app is a free and open-source project developed by our team. Your contributions are always welcome!
+Here are a few ways you can help:
+- Report bugs and make suggestions
+- Write some code for a new feature (Please follow the code style used in the project to make a review process faster)
+- Finding a dataset which contains coordinates of all the red zones in India
+- Translate the app
