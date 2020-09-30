@@ -21,7 +21,7 @@ git clone https://github.com/dhy3y/Saviour.git
 Please use:
 - Latest Android SDK tools
 - Latest Android platform tools
-- An emulator with SDK 28 or above
+- An emulator with SDK 28 or above (we are working with lower android versions too)
 - NDK version 20
 
 
