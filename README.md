@@ -57,4 +57,4 @@ Here are a few ways you can help:
 - Finding a dataset which contains coordinates of all the red zones in India
 - Translate the app
 
-**To contribute, you can send an email to** dhyeydoshi2512@gmail.com / pareshgharat6890@gmail.com
+**To contribute, you can send an email to** dhyeydoshi2512@gmail.com / pareshgharat55@hotmail.com
